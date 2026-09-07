@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISPLAY CSS</title>
+    <link rel="stylesheet" href="display.css">
+</head>
+<body>
+    <h1>DISPLAY PROPERTIES</h1>
+    <hr>
+    <div class="block">
+        <a href="#">BLOCK DISPLAY</a>
+        <a href="#">BLOCK DISPLAY</a>
+    </div>
+    <hr>
+    <div class="inline">
+        <p>INLINE DISPLAY</p>
+        <p>INLINE DISPLAY</p>
+    </div>
+    <hr>
+    <div class="inline-block">
+        <p>INLINE-BLOCK DISPLAY</p>
+        <p>INLINE-BLOCK DISPLAY</p>
+        <p>INLINE-BLOCK DISPLAY</p>
+    </div>
+    <p>this is display: None<span class="span"></span></p>
+    
+</body>
+</html>
