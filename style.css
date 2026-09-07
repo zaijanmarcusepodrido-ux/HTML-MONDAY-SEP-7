@@ -1,0 +1,53 @@
+body{
+    font-family: Arial;
+    background-color: white;
+}
+.block a{
+    display: block;
+    background-color: darkcyan;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+}
+.inline p{
+    display: inline;
+    background-color: darkcyan;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+.inline-block p{
+    display: inline-block;
+    background-color: darkcyan;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+}
+.mark{
+    display: none;
+}
+.flex{
+    display: flex;
+    gap: 20px;
+    height: 400px;
+    background-color: bisque;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.flex.card{
+padding: 15px;
+margin: 15px;
+background-color:darkcyan;
+width: 100px;
+height: 350px;
+}
